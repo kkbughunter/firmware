@@ -1,3 +1,17 @@
+/*
+[env:esp32dev]
+platform = espressif32
+board = esp32dev
+framework = arduino
+
+monitor_speed = 115200
+
+lib_deps =
+    adafruit/Adafruit SSD1306
+    adafruit/Adafruit GFX Library
+*/
+
+
 #include <Arduino.h>
 #include <Wire.h>
 #include <Adafruit_GFX.h>
